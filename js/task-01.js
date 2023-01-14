@@ -1,3 +1,3 @@
-const listItemId = document.querySelector("#categories");
-console.log(`Number of categories: ${listItemId}`);
+const listItemId = document.querySelectorAll("ul#categories");
 console.log(listItemId);
+console.log(`Number of categories: ${listItemId.length}`);
