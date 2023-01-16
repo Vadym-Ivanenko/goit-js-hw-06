@@ -13,16 +13,6 @@ const images = [
   },
 ];
 
-/* 
-1. Знаходжу ul з допомогою класу 
-2. Перебираю елементи з допомогою MAP
-3. Створюю елемент li з класом gallery-item
-4. В середину li додаю елемент img з класом gallery-item__img
-5. Додаю до img - src + alt з масиву image
-6. поміщаю елемент li в ul
-7. Додаю оформлення в CSS 
-*/
-
 const ulElem = document.querySelector(".gallery");
 
 const imagesList = images

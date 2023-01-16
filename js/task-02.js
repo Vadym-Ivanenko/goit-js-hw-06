@@ -15,4 +15,3 @@ ingredients.map((ingridient) => {
   liElem.classList.add("item");
   ulElem.appendChild(liElem);
 });
-// console.log(ulElem);
